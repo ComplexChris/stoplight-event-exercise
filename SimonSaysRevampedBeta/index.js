@@ -1,6 +1,6 @@
-// Simon says game.
+// Simon says Beta game.
 //console.log("SIMON SAYS!!!");
-const _version = "4.1.5";
+const _version = "1.2.5";
 const _author = "Chris J. Nguyen";
 const _date = "15 April 2021";
 

@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  margin-block-start: 5%;
+  margin-left: 20%;
+  margin-right: 30%;
+  padding: 100px;
+  
+}
+div{
+  margin-top: 30px;
+}
+
+#extra{
+  height: auto;
+  width: auto;
+}
+
+#controls {
+  margin-top: 30px;
+}
+
+.button {
+  background-color: gray;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 90px 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+#traffic-light {
+  background-color: #ababab;
+  border-radius: 40px;
+  margin: 30px 0;
+  height: 550px;
+  padding: 20px;
+  width: 200px;
+}
+
+.stat{
+  float: center;
+  position: absolute;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1.8%;
+  margin-top: 2%;
+  text-align: justify;
+  width: 300px ;
+  height: auto;
+  }
+
+.special{
+  position: absolute;
+float: center;
+text-align: center;
+border: 20%;
+margin-block-start: 250px;
+width: 450px ;
+height: auto;
+}
+
+.bulb {
+  background-color: #111;
+  border-radius: 50%;
+  margin: 25px auto;
+  height: 150px;
+  transition: background 300ms;
+  width: 150px;
+}
+
+.stop {
+  background-color: red;
+}
+
+.slow {
+  background-color: orange;
+}
+
+.go {
+  background-color: green;
+}
+
+.darken {
+  background-color: rgba(17, 17, 17, 0.938);
+}
